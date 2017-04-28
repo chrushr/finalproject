@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="leaflet.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cartodb-libs.global.ssl.fastly.net/cartodb.js/v3/3.15/themes/css/cartodb.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.2.3/leaflet.draw.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <title> Supermarket Chains in San Francisco </title>
+  </head>
+  <body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+
+      <div id="intro">
+        <h3> Supermarket Siting & &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Customer Analysis</h3>
+        <p>__________________________________________</p>
+      </div>
+
+      <div>
+        <div class="btn-group" role="group" aria-label="...">
+          <button type="submit" class="btn" id = "previous" >Previous</button>
+          <button type="submit" class="btn" id = "next">Next</button>
+          <button type="submit" class="btn" id = "all" >Show All</button>
+          <button type="submit" class="btn" id = "removeall">Clear All</button>
+        </div>
+      </div>
+
+      <p>&nbsp;&nbsp;</p>
+
+      <div class = 'item'>
+        <p> <h4>Please rank the following factors:</h4></p>
+        <!-- Split button -->
+         <div class="form-group">
+            <div class="col-sm-6 col-md-4">
+              <select id="dropdown1" class="form-control">
+                <option>Population Characteristics</option>
+                <option>Land Use</option>
+                <option>Parking</option>
+                <option>Distance to Existing Supermarkets</option>
+              </select>
+            </div>
+          </div>
+
+         <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Most Important</p>
+
+          <div class="form-group">
+            <div class="col-sm-6 col-md-4">
+              <select id="dropdown2" class="form-control">
+                <option>Population Characteristics</option>
+                <option>Land Use</option>
+                <option>Parking</option>
+                <option>Distance to Existing Supermarkets</option>
+              </select>
+            </div>
+          </div>
+
+         <p class='big'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp;&nbsp;&nbsp;More Important</p>
+
+          <div class="form-group">
+            <div class="col-sm-6 col-md-4">
+              <select id="dropdown3" class="form-control">
+                <option>Population Characteristics</option>
+                <option>Land Use</option>
+                <option>Parking</option>
+                <option>Distance to Existing Supermarkets</option>
+              </select>
+            </div>
+          </div>
+
+         <p class='big'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp;&nbsp;&nbsp;&nbsp;Less Important</p>
+
+          <div class="form-group">
+            <div class="col-sm-6 col-md-4">
+              <select id="dropdown4" class="form-control">
+                <option>Population Characteristics</option>
+                <option>Land Use</option>
+                <option>Parking</option>
+                <option>Distance to Existing Supermarkets</option>
+              </select>
+            </div>
+          </div>
+
+         <p class='big'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Least Important</p>
+      </div>
+
+      <div class = 'item1'>
+        <p> <h4>Please choose the new store size:</h4> </p>
+        <div class="form-group">
+          <div class="col-sm-6 col-md-4">
+            <select id="dropdown5" class="form-control">
+              <option>10000-30000 square feet</option>
+              <option>>30000 square feet</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <p>&nbsp;&nbsp;</p>
+
+      <div class="btn-group" role="group" aria-label="...">
+        <button type="submit" class="btn" id = "findsite" >Add New Store</button>
+        <button type="submit" class="btn" id = "removesite">Remove New Store</button>
+      </div>
+
+    </div>
+
+
+    <!-- Map -->
+    <div id="map" class="map"></div>
+
+
+
+    <!-- Start Javascript Imports -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.js"></script>
+    <script src="jquery-2.2.0.js"></script>
+    <script src="underscore.js"></script>
+    <script src="State.js"></script>
+    <script src="Charts.js"></script>
+    <script src="NewPoints.js"></script>
+    <script src="FindSite.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://cartodb-libs.global.ssl.fastly.net/cartodb.js/v3/3.15/cartodb.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.2.3/leaflet.draw.js"></script>
+    <script src="basicApplication.js"></script>
+    <!-- End Javascript Imports -->
+
+  </body>
+</html>
