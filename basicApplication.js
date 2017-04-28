@@ -2439,6 +2439,8 @@ var plotMarkers = function(markers) {
                 interactivity: ['w4'], // Define properties you want to be available on interaction
               }
             ]
+            },{
+              https: true
             }).on('done', function(layer) {
             existingcensusLayer=layer;
             map.addLayer(existingcensusLayer)
