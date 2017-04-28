@@ -237,6 +237,8 @@ var plotMarkers = function(markers) {
                   interactivity: ['pwhole_f_4'], // Define properties you want to be available on interaction
                }
               ]
+            }, {
+              https: true
             }).on('done', function(layer) {
 
               existingcensusLayer=layer;
@@ -260,6 +262,8 @@ var plotMarkers = function(markers) {
                   interactivity: ['pwhole_f_3'], // Define properties you want to be available on interaction
                }
               ]
+            },{
+              https: true
             }).on('done', function(layer) {
               existingcensusLayer=layer;
               map.addLayer(existingcensusLayer)
@@ -282,6 +286,8 @@ var plotMarkers = function(markers) {
                   interactivity: ['pwhole_foo'], // Define properties you want to be available on interaction
                }
               ]
+            },{
+              https: true
             }).on('done', function(layer) {
               existingcensusLayer=layer;
               map.addLayer(existingcensusLayer)
@@ -304,6 +310,8 @@ var plotMarkers = function(markers) {
                   interactivity: ['pwhole_f_1'], // Define properties you want to be available on interaction
                }
               ]
+            },{
+              https: true
             }).on('done', function(layer) {
               existingcensusLayer=layer;
               map.addLayer(existingcensusLayer)
@@ -327,6 +335,8 @@ var plotMarkers = function(markers) {
                   interactivity: ['pwhole_f_5'], // Define properties you want to be available on interaction
                }
               ]
+            },{
+              https: true
             }).on('done', function(layer) {
               existingcensusLayer=layer;
               map.addLayer(existingcensusLayer)
@@ -349,6 +359,8 @@ var plotMarkers = function(markers) {
                   interactivity: ['pwhole_f_2'], // Define properties you want to be available on interaction
                }
               ]
+            },{
+              https: true
             }).on('done', function(layer) {
               existingcensusLayer=layer;
               map.addLayer(existingcensusLayer)
@@ -374,6 +386,8 @@ var plotMarkers = function(markers) {
                   interactivity: ['pwhole_f_4'], // Define properties you want to be available on interaction
                }
               ]
+            },{
+              https: true
             }).on('done', function(layer) {
 
               existingcensusLayer=layer;
@@ -397,6 +411,8 @@ var plotMarkers = function(markers) {
                   interactivity: ['pwhole_f_3'], // Define properties you want to be available on interaction
                }
               ]
+            },{
+              https: true
             }).on('done', function(layer) {
               existingcensusLayer=layer;
               map.addLayer(existingcensusLayer)
@@ -419,6 +435,8 @@ var plotMarkers = function(markers) {
                   interactivity: ['pwhole_foo'], // Define properties you want to be available on interaction
                }
               ]
+            },{
+              https: true
             }).on('done', function(layer) {
               existingcensusLayer=layer;
               map.addLayer(existingcensusLayer)
@@ -441,6 +459,8 @@ var plotMarkers = function(markers) {
                   interactivity: ['pwhole_f_1'], // Define properties you want to be available on interaction
                }
               ]
+            },{
+              https: true
             }).on('done', function(layer) {
               existingcensusLayer=layer;
               map.addLayer(existingcensusLayer)
@@ -464,6 +484,8 @@ var plotMarkers = function(markers) {
                   interactivity: ['pwhole_f_5'], // Define properties you want to be available on interaction
                }
               ]
+            },{
+              https: true
             }).on('done', function(layer) {
               existingcensusLayer=layer;
               map.addLayer(existingcensusLayer)
@@ -2463,6 +2485,8 @@ var plotMarkers = function(markers) {
                   interactivity: ['w3'], // Define properties you want to be available on interaction
                }
               ]
+            },{
+              https: true
             }).on('done', function(layer) {
               existingcensusLayer=layer;
               map.addLayer(existingcensusLayer)
@@ -2485,6 +2509,8 @@ var plotMarkers = function(markers) {
                   interactivity: ['w0'], // Define properties you want to be available on interaction
                }
               ]
+            },{
+              https: true
             }).on('done', function(layer) {
               existingcensusLayer=layer;
               map.addLayer(existingcensusLayer)
@@ -2508,6 +2534,8 @@ var plotMarkers = function(markers) {
                   interactivity: ['w1'], // Define properties you want to be available on interaction
                }
               ]
+            },{
+              https: true
             }).on('done', function(layer) {
               existingcensusLayer=layer;
               map.addLayer(existingcensusLayer)
@@ -2531,6 +2559,8 @@ var plotMarkers = function(markers) {
                   interactivity: ['w5'], // Define properties you want to be available on interaction
                }
               ]
+            },{
+              https: true
             }).on('done', function(layer) {
               existingcensusLayer=layer;
               map.addLayer(existingcensusLayer)
@@ -2554,6 +2584,8 @@ var plotMarkers = function(markers) {
                   interactivity: ['w2'], // Define properties you want to be available on interaction
                }
               ]
+            },{
+              https: true
             }).on('done', function(layer) {
               existingcensusLayer=layer;
               map.addLayer(existingcensusLayer)
