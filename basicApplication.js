@@ -5639,6 +5639,7 @@ var plotNewMarker = function(marker) {
 // Call function to execute the processes above when the 'Show All' button is clicked
 $( '#all' ).click(
  function(){
+   $('#text1').text("Hover on the marker(s) and the map to see the current customer distribution! Also try clicking on the markers");  //Change the text on the sidbar 
    if(existingcensusArray.length){               // if there is a choropleth map showing on the screen, remove it by emptying the layers
        map.removeLayer(existingcensusLayer);
        existingcensusArray=[];
@@ -5670,6 +5671,7 @@ $('#removeall').click(
 // Call function to execute the processes above when the 'Next' button is clicked
 $( '#next' ).click(
   function() {
+  $('#text1').text("Hover on the marker(s) and the map to see the current customer distribution! Also try clicking on the markers");  //Change the text on the sidbar 
   clickNextButton();
   }
 )
