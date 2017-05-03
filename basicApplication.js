@@ -101,7 +101,7 @@ var state = {
 
 // Set map center and initial zoom scale
 var map = L.map('map', {
-  center: [ 37.7582, -122.459],
+  center: [ 37.7582, -122.469],
   zoom: 12
 });
 
