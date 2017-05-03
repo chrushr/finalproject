@@ -21,9 +21,9 @@ p.main {
     color:#ffffff;
     position: absolute;
     left: 25px;
-    width: 380px;
-    top: 80px;
-    bottom: 80px;
+    width: 400px;
+    top: 60px;
+    bottom: 60px;
     overflow-y: auto;
     padding: 20px;
     padding-top: 20px;
