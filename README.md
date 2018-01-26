@@ -7,6 +7,7 @@ considering the store’s features, the various factors affecting the store’s 
 customer population for both the store itself and the competitor stores.
 
 ==============================================
+
 (User Manual) The tool has the following features:
 
 1. Show/Hide Stores (markers)
