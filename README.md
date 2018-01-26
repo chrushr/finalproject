@@ -16,6 +16,7 @@ customer population for both the store itself and the competitor stores.
   
   b. Click on "Show All" to see all stores, and clicke on "Clear All" to remove all stores
 
+
 2. Siting new store
 
   a. Rank the four factors based on their importance levels, and select a store size range,
@@ -24,6 +25,7 @@ customer population for both the store itself and the competitor stores.
   b. Change ranking and other inputs to add new locations on the map (removing the current one)
   
   c. Click "Remove New Store" to remove the new store
+
 
 3. View Customer Distribution
 
