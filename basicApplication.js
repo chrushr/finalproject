@@ -1,7 +1,7 @@
 /* ==============================================
 Final Project - Tianyi Ren
 
-This project/tool proposes suitable sites for a new store of Whole Foods Supermarket in San Francisco,
+This web mapping tool proposes suitable sites for a new store of Whole Foods Supermarket in San Francisco,
 considering the store’s features, the various factors affecting the store’s success, and the potential
 customer population for both the store itself and the competitor stores.
 
